@@ -13,7 +13,7 @@ namespace api.Data
         {
             
         }
-        public DbSet<Stocks> Stock {get; set;}
+        public DbSet<Stocks> Stocks {get; set;}
         public DbSet<Comment> Comments {get; set;}
 
     }
