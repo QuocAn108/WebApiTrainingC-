@@ -32,12 +32,12 @@ namespace api.Controllers
         [HttpGet("{id}")] //~getParameter
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
-            var stockS = await _stockRepo.GetIdByAsync(id);
-            if (stockS == null)
+            var stock = await _stockRepo.GetIdByAsync(id);
+            if (stock == null)
             {
                 return NotFound();
             }
-            return Ok(stockS.ToStockDTO());
+            return Ok(stock.ToStockDTO());
         }
 
         [HttpPost]
