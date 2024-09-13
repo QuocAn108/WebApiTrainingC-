@@ -4,10 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using api.Data;
 using api.Dtos.Stock;
+using api.Helper;
 using api.Interfaces;
 using api.Mappers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace api.Controllers
 {
@@ -23,12 +25,17 @@ namespace api.Controllers
             _context = context;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
-            var stocks = await _stockRepo.GetAllAsync();
+            var stocks = await _stockRepo.GetAllAsync(query);
+            if (stocks.IsNullOrEmpty())
+            {
+                return NotFound(new { message = "Không tìm thấy bản ghi nào khớp với tiêu chí tìm kiếm." });
+            }
             var stockDto = stocks.Select(s => s.ToStockDTO());
             return Ok(stocks);
+            
         }
         [HttpGet("{id:int}")] //~getParameter
         public async Task<IActionResult> GetById([FromRoute] int id)
