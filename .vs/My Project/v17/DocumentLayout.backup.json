@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\My Project\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|d:\\my project\\api\\models\\stocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|solutionrelative:api\\models\\stocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stocks.cs",
+              "DocumentMoniker": "D:\\My Project\\api\\Models\\Stocks.cs",
+              "RelativeDocumentMoniker": "api\\Models\\Stocks.cs",
+              "ToolTip": "D:\\My Project\\api\\Models\\Stocks.cs",
+              "RelativeToolTip": "api\\Models\\Stocks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T18:56:11.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -87,7 +87,13 @@ builder.Services.AddAuthentication(options =>
         )
     };
 });
-
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowOrigin",
+        builder => builder.WithOrigins("http://localhost:3000") // address of frontend
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
 builder.Services.AddScoped<IStockRepository, StockRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddScoped<ITokenService, TokenServices>();
@@ -103,6 +109,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseCors("AllowOrigin");
 app.MapControllers();
 app.Run();
 
