@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\My Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|d:\\my project\\api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|solutionrelative:api\\dtos\\account\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|d:\\my project\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|d:\\my project\\api\\models\\stocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC28C090-01E0-4195-9590-22F1B31173AD}|api\\api.csproj|solutionrelative:api\\models\\stocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,20 +22,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\My Project\\api\\Dtos\\Account\\LoginDto.cs",
+              "RelativeDocumentMoniker": "api\\Dtos\\Account\\LoginDto.cs",
+              "ToolTip": "D:\\My Project\\api\\Dtos\\Account\\LoginDto.cs",
+              "RelativeToolTip": "api\\Dtos\\Account\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T05:52:39.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Project\\api\\Program.cs",
+              "RelativeDocumentMoniker": "api\\Program.cs",
+              "ToolTip": "D:\\My Project\\api\\Program.cs",
+              "RelativeToolTip": "api\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T12:13:35.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Stocks.cs",
               "DocumentMoniker": "D:\\My Project\\api\\Models\\Stocks.cs",
               "RelativeDocumentMoniker": "api\\Models\\Stocks.cs",
               "ToolTip": "D:\\My Project\\api\\Models\\Stocks.cs",
               "RelativeToolTip": "api\\Models\\Stocks.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T18:56:11.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T11:48:56.92Z"
             }
           ]
         }
